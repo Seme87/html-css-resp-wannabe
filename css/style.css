@@ -134,8 +134,25 @@ img {
  ************************************************/
 
 @media screen and (max-width: 480px) {
+
     .container{
-        /* max-width: 1140px; */
+        max-width: 100%;
     }
-}
+
+
+   .row{
+    display: block;
+   }
+
+
+   h2{
+    display: inline;
+    width: 100%;
+   }
+
+   .col{
+    margin: auto;
+   }
+}   
+
 
