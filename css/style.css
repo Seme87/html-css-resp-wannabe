@@ -145,13 +145,48 @@ img {
    }
 
 
-   h2{
+   h2, p{
     display: inline;
     width: 100%;
    }
 
-   .col{
+   .lessons .col{
+    padding: 30px 0;
+    text-align: center;
     margin: auto;
+    width: 100%;
+   }
+
+   .steps .col{
+    padding: 30px 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+   }
+
+   .why-us .col-left{
+        padding: 30px 0;
+        /* text-align: center; */
+        margin: auto;
+        width: 100%;
+   }
+
+   .why-us .col-right{
+        padding: 30px 0;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+   }
+
+
+   .why-us {
+    position: relative;
+   }
+
+   .why-us .col-right h1{
+    position: absolute;
+    left: 25%;
+    right: 25%;
    }
 }   
 
